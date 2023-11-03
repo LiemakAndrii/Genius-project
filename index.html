@@ -10,27 +10,28 @@
 </head>
 
 <body>
-    <!--+ Header -->
+    <!-- Header -->
     <header>
         <nav>
-            <a href="#">
+            <a href="/">
                 <img src="./images/logo.svg" alt="Логотип сучасної пекарні">
             </a>
             <ul>
-                <li><a href="#">Наші традиції</a></li>
-                <li><a href="#">Шеф-кухарі</a></li>
-                <li><a href="#">Формати</a></li>
-                <li><a href="#">Контакти</a></li>
+                <li><a href="#traditions-section">Наші традиції</a></li>
+                <li><a href="#chefs-section">Шеф-кухарі</a></li>
+                <li><a href="#formats-section">Формати</a></li>
+                <li><a href="#contact-section">Контакти</a></li>
             </ul>
         </nav>
         <button type="button">Замовити дзвінок</button>
-        <!--- Замовити дзвінок -->
     </header>
     <main>
+        <!-- First section -->
         <section>
             <h1>Сучасна пекарня</h1>
         </section>
-        <section>
+        <!-- Traditions section -->
+        <section id="traditions-section">
             <ul>
                 <li>Великий попит на ринку</li>
                 <li>Доступні за бюджетом формати</li>
@@ -48,7 +49,8 @@
             </p>
             <img src="./images/baker-man.jpg" alt="Чоловік пекар">
         </section>
-        <section>
+        <!-- Cookers section -->
+        <section id="chefs-section">
             <h2>Наші найкращі шеф -кухарі</h2>
             <ul>
                 <li>
@@ -69,31 +71,36 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <!-- Formats section -->
+        <section id="formats-section">
             <h2>Формати</h2>
             <ul>
                 <li>
                     <article>
-                        <h3 lang="ua">Walrus</h3>
+                        <h3 lang="uk">Walrus</h3>
                     </article>
                 </li>
                 <li>
                     <article>
-                        <h3 lang="ua">Horseshoe</h3>
+                        <h3 lang="uk">Horseshoe</h3>
                     </article>
                 </li>
                 <li>
                     <article>
-                        <h3 lang="ua">Handlebar</h3>
+                        <h3 lang="uk">Handlebar</h3>
                     </article>
                 </li>
             </ul>
         </section>
-        <section>
+        <!-- Contact-section -->
+        <section id="contact-section">
             <h2>Приєднуйся до мережі пекарень</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d635.0407286785055!2d30.4908517!3d50.4566909!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637bfe1717%3A0x5370c2254ad1b952!2z0YPQuy4g0KHQtdGH0LXQstGL0YUg0KHRgtGA0LXQu9GM0YbQvtCyLCA1NCwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1698992627410!5m2!1sru!2sua"
+                width="603" height="595" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
-    <footer>
+    <footer class="footer" id="footer">
         <nav>
             <a href="#">
                 <img src="./images/logo.svg" alt="Логотип сучасної пекарні">
@@ -122,7 +129,7 @@
                 </li>
             </ul>
             <a href="#" target="_blank">Політика конфіденційності</a>
-            <p>© 2022 Дані захищені</p>
+            <p>&copy; 2022 Дані захищені</p>
         </address>
     </footer>
 </body>
